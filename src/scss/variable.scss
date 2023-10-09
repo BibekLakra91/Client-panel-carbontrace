@@ -1,0 +1,18 @@
+$primary-color:#5b22cf;
+$white-color:#ffffff;
+$secondary-color:#4416a2;
+$light-blue:#7234ef;
+$text-color:#144339;
+$menu-icon-color:#89bacf;
+$menu-active-bgcolor:#e9ecef80;
+$btn-bgcolor:#293042;
+
+
+
+@mixin tpheading{
+    background: $white-color;
+    padding: 10px 10px;
+    border-radius: 2px;
+    box-shadow: 0px 3px 5px #f2f0f0;
+    align-items: center;
+}

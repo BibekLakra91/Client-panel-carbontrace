@@ -1,0 +1,74 @@
+span.form-error {
+  color: red;
+  font-size: 12px;
+}
+
+.stat {
+  background: #e0eafc;
+  border-radius: 50%;
+  height: 48px;
+  padding: .75rem;
+  width: 48px;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-link i {
+  font-size: 18px;
+}
+
+.dropdown-menu.dropdown-menu-end.show {
+  left: auto;
+  right: 0;
+}
+
+.rounded-circle {
+  border: 1px solid #ecebeb;
+}
+
+td.centre {
+  text-align: center;
+}
+
+.hxMxFn > input {
+  font-size: 14px!important;
+  color: #495057!important;
+}
+.spinner-wrapper{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.customModal {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.react-responsive-modal-modal {
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+}
+
+button.react-responsive-modal-closeButton {
+  top: 6px;
+  right: 6px;
+}
+
+i.align-middle.fa.fa-exclamation-triangle {
+  cursor: pointer;
+}
+
+
+.main .table tbody tr .Rejected {
+  background: #ff1414;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.custom-dropdown-container {
+  height: 300px;
+  overflow: scroll;
+  scroll-behavior: auto;
+}

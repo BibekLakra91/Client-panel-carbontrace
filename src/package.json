@@ -1,0 +1,65 @@
+{
+  "name": "co2-client-panel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "chart.js": "^3.5.1",
+    "dateformat": "^4.5.1",
+    "dotenv": "^16.0.1",
+    "jquery": "^3.6.0",
+    "mime": "^3.0.0",
+    "ng2-charts": "^2.4.3",
+    "react": "^17.0.2",
+    "react-bar-chart": "^0.1.2",
+    "react-chartjs-2": "^3.0.5",
+    "react-custom-dropdown-input": "^1.0.4",
+    "react-datepicker": "^4.2.1",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-js-pagination": "^3.0.3",
+    "react-minimal-pie-chart": "^8.2.0",
+    "react-notifications-component": "^3.4.1",
+    "react-responsive-modal": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-scroll-top": "^0.2.1",
+    "react-scripts": "^5.0.0",
+    "react-search-autocomplete": "^5.4.2",
+    "react-select": "^4.3.1",
+    "react-select-search": "^3.0.8",
+    "reactjs-popup": "^2.0.5",
+    "reactstrap": "^9.0.0",
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}

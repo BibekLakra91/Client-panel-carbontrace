@@ -1,0 +1,26 @@
+#version: '3.5'
+#
+#services:
+#  runner:
+#    container_name: runner
+#    image: ubuntu:20.04
+#    entrypoint: ["tail", "-f", "/dev/null" ]
+#    #    working_dir: "/home/yellow-phoenix/deployment"
+#    #    entrypoint: ["sh", "build_image.sh"]
+#    ports:
+#      - "3001:3000"
+##    volumes:
+##      - .:/home/co2-client-panel
+##      - /var/run/docker.sock:/var/run/docker.sock
+
+
+version: '3.7'
+services:
+
+  co2-client-panel:
+    container_name: co2-client-panel
+    build: .
+    #    entrypoint: [ "tail", "-f", "/dev/null" ]
+    entrypoint: ["yarn", "start"]
+    ports:
+      - "3001:3000"

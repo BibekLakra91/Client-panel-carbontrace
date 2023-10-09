@@ -1,0 +1,16 @@
+.authPage{
+  background-image: url('../img/bg-pattern-light.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div#pagination {
+  margin-top: 1rem;
+  
+}
+
+ul.pagination {
+  float: right;
+  margin-right: 1rem;
+}
